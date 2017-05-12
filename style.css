@@ -1,13 +1,31 @@
+@font-face {
+    font-family : 'texte';
+    src: url(Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family : 'texte2';
+    src: url(Comfortaa-Light.ttf);
+}
+
+body {
+    background-color:aliceblue;
+}
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background-color: aliceblue;
 }
 
 #header
 {
 	background: #ccc;
 	padding: 20px;
+    border-radius:5px;
+    text-align:center;
+    background-color: lightblue;
+    color:white;
+    font-family:'texte';
 }
 
 #header h1 { margin: 0; }
@@ -38,7 +56,7 @@
 	padding: 5px 10px;
 	color: #fff;
 	text-decoration: none;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #fff; 
 }
 
 #navigation li a:hover { background: #383; }
@@ -46,7 +64,7 @@
 #edito
 {
 	clear: left;
-	padding: 20px;
+	padding: 25px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
@@ -58,6 +76,9 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: white;
+    font-family : 'texte2';
+    padding-top: 60px;
 }
 
 #edito h2
@@ -65,14 +86,19 @@
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+    font-family : 'texte';
+    text-align:center;
+    color:lightskyblue;
+    padding-bottom: 30px;
+    font-size: 50px;
 }
 
 #news
 {	
 	float: left;
-	width: 40%;
+	width: 30%;
 	padding: 20px;
-	margin: 20px;
+	margin: 10px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
@@ -83,6 +109,25 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: white;
+    font-family : 'texte2';
+    float:left;
+    padding-bottom: 50px;
+    
+}
+
+h3 {
+    color:black;
+    text-decoration: none;
+}
+
+#news h2 {
+	color: #000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+    font-family : 'texte';
+    text-align:center;
+    color:lightskyblue;
 }
 
 #footer
@@ -92,4 +137,5 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    background-color:aliceblue;
 }
